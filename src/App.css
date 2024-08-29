@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.read-the-docs {
+  color: #888;
+}
+h1 {
+  background-color: #565d47;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  margin-top: 0;
+}
+
+body{
+  text-align: center;
+  background-color: #b49c73;  
+}
+footer{
+  margin-top: 100px;
+}
