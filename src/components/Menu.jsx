@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Plants from "./PlantPage";
+import data from "./data.json";
 
 function Menu() {
 
@@ -7,9 +8,6 @@ function Menu() {
 
     function HandleClick(e) {
         e.preventDefault();
-        setPlant(e.target.value)
-        console.log(typeof (plant))
-
     }
     return (
         <>
@@ -17,31 +15,19 @@ function Menu() {
                 <form onSubmit={HandleClick}>
                     <label>
                         <select name="plants" onChange={(e) => setPlant(e.target.value)}>
-                            <option value="">Pick your plant</option>
-                            <option value="1">Ficus Ginseng Bonsai</option>
-                            <option value="2">White Fox Aloe</option>
-                            <option value="3">Frech Lavendar</option>
-                            <option value="4">Tropical Banana</option>
-                            <option value="5">Hens and Chicks</option>
-                            <option value="6">Wandering Jew</option>
-                            <option value="7">Purslane</option>
-                            <option value="8">Lemon Balm</option>
-                            <option value="9">Catnip</option>
-                            <option value="10">Spearmint</option>
-                            <option value="11">Rosemary</option>
+                            <option value="">Pick A Plant</option>
+                            {data.map((plant) => (
+                                <option value={plant.id}>{plant.name}</option>
+                            ))}
                         </select>
                     </label>
-                    {/* <input type="submit" /> */}
                 </form>
             </div>
-
             <div>
                 <Plants
                     chosenPlant={plant} />
             </div>
-
         </>
-
     )
 }
 

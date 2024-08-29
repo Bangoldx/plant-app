@@ -9,24 +9,6 @@
         "image": "../public/images/bonsai.png"
     },
     {
-        "id": "2",
-        "name": "White Fox Aloe",
-        "type": "Succulant",
-        "water": "Allow to completely dry between waterings",
-        "light": "Minimum of 6 of indirect light",
-        "temperature": "B",
-        "image": "../public/images/whitefoxaloe.png"
-    },
-    {
-        "id": "3",
-        "name": "Frech Lavendar",
-        "type": "Lavendar",
-        "water": "Every 2-3 weeks",
-        "light": "Direct, intense light",
-        "temperature": "Does not handle frost, snow or freezing temperatures",
-        "image": "../public/images/lavender.png"
-    },
-    {
         "id": "4",
         "name": "Tropical Banana",
         "type": "Tree",
@@ -34,15 +16,6 @@
         "light": "At least 6 hours of direct light",
         "temperature": "Between 75F-95F",
         "image": "../public/images/banana.png"
-    },
-    {
-        "id": "5",
-        "name": "Hens and Chicks",
-        "type": "Succulant",
-        "water": "Once a week in warm climates, can go weeks between waterings",
-        "light": "At least 6 hours of direct light",
-        "temperature": "65F-75F",
-        "image": "../public/images/hens&chicks.png"
     },
     {
         "id": "6",
@@ -54,42 +27,6 @@
         "image": "../public/images/wanderingjew.png"
     },
     {
-        "id": "7",
-        "name": "Purslane",
-        "type": "Microgreen",
-        "water": "Water when soil is dry but not parched",
-        "light": "Full sun, can flower more if in partial shade",
-        "temperature": "Good with hot",
-        "image": "../public/images/purslane.png"
-    },
-    {
-        "id": "8",
-        "name": "Lemon Balm",
-        "type": "Mint",
-        "water": "Err on side of underwatering, small amounts",
-        "light": "5-6 hours of direct light, rotate to avoid sunburn",
-        "temperature": "Avoid overly cool and overly hot temperatures",
-        "image": "../public/images/lemonbalm.png"
-    },
-    {
-        "id": "9",
-        "name": "Catnip",
-        "type": "Mint",
-        "water": "Err on side of underwatering, small amounts",
-        "light": "5-6 hours of direct light, rotate to avoid sunburn",
-        "temperature": "Avoid overly cool and overly hot temperatures",
-        "image": "../public/images/catnip.png"
-    },
-    {
-        "id": "10",
-        "name": "Spearmint",
-        "type": "Mint",
-        "water": "Almost dry between waterings, then soak thoroughly",
-        "light": "Full light to partial shade",
-        "temperature": "Does not tolerate cold",
-        "image": "../public/images/spearmint.png"
-    },
-    {
         "id": "11",
         "name": "Rosemary",
         "type": "Herb",
@@ -97,6 +34,42 @@
         "light": "At least 6 hours of direct sun, does not tolerate shade",
         "temperature": "30F-80F",
         "image": "../public/images/rosemary.png"
+    },
+    {
+        "id": "12",
+        "name": "Baltic Blue Pothos",
+        "type": "Vine",
+        "water": "Underwater vs Overwater",
+        "light": "Ample or Bright Indirect Light",
+        "temperature": "Indoor",
+        "image": "../public/images/baltic-pothos.jpg"
+    },
+    {
+        "id": "13",
+        "name": "Monstera",
+        "type": "Vine",
+        "water": "Can be grown in water, but if in soil water every 1-2 weeks if soil is dry, mist between waterings",
+        "light": "5 to 8 hours of bright indirect light a day",
+        "temperature": "30F-80F",
+        "image": "../public/images/monstera.jpg"
+    },
+    {
+        "id": "14",
+        "name": "Morning Glory",
+        "type": "Climbing Vine",
+        "water": "Water when top inch of soil is dry",
+        "light": "6 to 8 hours of direct sunlight a day",
+        "temperature": "60-90F, ideal 70-80°F",
+        "image": "../public/images/morning-glory.jpg"
+    },
+    {
+        "id": "15",
+        "name": "Wisteria",
+        "type": "Climbing Vine",
+        "water": "Water when top inch of soil is dry",
+        "light": "Full Sun",
+        "temperature": "50 to 77F",
+        "image": "../public/images/wisteria.jpg"
     }
 ]
 
